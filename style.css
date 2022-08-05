@@ -1,0 +1,81 @@
+.container 
+{
+    display: flex;
+    background: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+body 
+{
+    padding: 0px;
+    margin: 0px;
+}
+.log 
+{
+    color: white;
+}
+.menu a 
+{
+    color: white;
+    text-decoration: none;
+    margin: 1px 10px;
+    transition: .3s;
+}
+.menu a:hover 
+{
+    /* transform:scale(2.5); */
+    color: goldenrod;
+    
+}
+.form-container 
+{
+    background-color: rgba(219, 219, 219, 0.469);
+    padding: 50px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.532),rgba(0, 0, 0, 0.498)), url("cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.input 
+{
+    width: 300px;
+    height: 25px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid royalblue;
+    transition: .5s all;
+}  
+.input:focus
+{
+   width:500px ;
+}
+form 
+{
+    background-color: rgba(255, 255, 255, 0.351);
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.246);
+}
+form button 
+{
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background: green;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: .3s all;
+}
+form button:hover 
+{
+    background-color: white;
+    color: black;
+}
+
+
